@@ -41,7 +41,7 @@ class Player {
         // this.currentGame.gravityAI();
         scale(this.windowWidth / canvas.width, this.windowHeight / canvas.height);
         this.currentGame.draw();
-        this.brain.writeMultipliers(17,300);
+        // this.brain.writeMultipliers(17,300);
         this.currentGame.writeStats(590,300);
         pop();
     }
