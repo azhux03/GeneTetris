@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <script language="javascript" src="libraries/p5.sound.js"></script>
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <script language="javascript" type="text/javascript" src="Block.js"></script>
+  <script language="javascript" type="text/javascript" src="Shape.js"></script>
+  <script language="javascript" type="text/javascript" src="Game.js"></script>
+  <script language="javascript" type="text/javascript" src="AI.js"></script>
+  <script language="javascript" type="text/javascript" src="ShapeGenerator.js"></script>
+  <script language="javascript" type="text/javascript" src="CheckedPositionsArray.js"></script>
+  <script language="javascript" type="text/javascript" src="BlockMatrix.js"></script>
+  <script language="javascript" type="text/javascript" src="MoveHistory.js"></script>
+  <script language="javascript" type="text/javascript" src="Population.js"></script>
+  <script language="javascript" type="text/javascript" src="Player.js"></script>
+  <script language="javascript" type="text/javascript" src="Brain.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-color: #000000;
+      margin: 0;
+      /* overflow: hidden; */
+      display: flex;
+      height: 100vh;
+    }
+
+    #side-blocks {
+      flex: 1;
+      background-color: #000000; /* Set the background color for the side blocks */
+    }
+
+    #canvas {
+      flex: 1;
+      /* Set the background color for the canvas block */
+      background-color: #000000; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #canvas-container {
+      flex: 1;
+    }
+
+    html {
+      zoom: 95%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="side-blocks"></div>
+  <div id="canvas-container">
+    <div id="canvas"></div>
+  </div>
+  <div id="side-blocks"></div>
+</body>
+</html>
