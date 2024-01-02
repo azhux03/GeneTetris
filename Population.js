@@ -47,6 +47,7 @@ class Population {
         fill('#5f6a5c');
         stroke(0);
         textAlign(CENTER,CENTER);
+        text("Tetris", canvas.width/2,25);
         // text("G/B " + this.generation + ":" + (this.currentBatchNumber +1) + "\t\tAverage: " + (this.fitnessSum/this.players.length).toFixed(2),canvas.width/2,25 );
 
         translate(0, 50);

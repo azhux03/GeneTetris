@@ -267,6 +267,7 @@ class Game {
             textSize(30);
             textAlign(CENTER, CENTER);
             fill('#5f6a5c');
+            textFont(font);
             stroke(0);
             strokeWeight(1);
             text(`Level: ${this.level}\t\t Score: ${this.score}`, gameWidthInPixels / 2, -25);
@@ -344,6 +345,7 @@ class Game {
             fill('#5f6a5c');
             stroke(0);
             strokeWeight(1);
+            textFont(font);
             text("NEXT", nextShapeWidthInPixels / 2, -20);
 
 
@@ -375,6 +377,7 @@ class Game {
             fill('#5f6a5c');
             stroke(0);
             strokeWeight(1);
+            textFont(font);
             text("HELD", nextShapeWidthInPixels / 2, -20);
 
 
