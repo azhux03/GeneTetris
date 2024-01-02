@@ -22,7 +22,7 @@ let paused = false;
 let possibleAIMoveCounter = 0;
 
 let population;
-let populationSize = 40;
+let populationSize = 10;
 
 
 function preload() {

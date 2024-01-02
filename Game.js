@@ -56,7 +56,7 @@ class Game {
                 }
                 else{
                     this.moveShapeDown(false);
-                    if (!this.currentShape.canMoveInDirection(0, 0) || this.line > 500) {
+                    if (!this.currentShape.canMoveInDirection(0, 0)) {
                         this.isDead = true;
                         this.resetGame();
                         this.level = 0;
