@@ -6,7 +6,7 @@ class Population {
         this.bestPlayer = null;
         this.generation = 1;
 
-        this.batchSize = 1;
+        this.batchSize = 4;
         this.currentBatchNumber = 0;
         this.numberOfBatches = Math.ceil(size / this.batchSize);
 
